@@ -7,7 +7,7 @@ const moduleDefault = require('./modules/default')
 const moduleWebhook = require('./modules/webhook')
 const moduleCustomfield = require('./modules/customfield')
 
-const APP_HOST = process.env.APP_HOST
+//const APP_HOST = process.env.APP_HOST
 const APP_PORT = process.env.APP_PORT
 
 //const bodeParserJSON = require('body-parser')

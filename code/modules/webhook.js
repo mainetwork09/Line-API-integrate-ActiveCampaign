@@ -1,5 +1,5 @@
 const route = require('express').Router()
-const bodyParser = require('body-parser').urlencoded()
+const bodyParser = require('body-parser').urlencoded({ extended: true })
 const request = require('request-promise')
 const CHANNEL_ACCESS_TOKEN = process.env.LINE_ACCESS_TOKEN
 
